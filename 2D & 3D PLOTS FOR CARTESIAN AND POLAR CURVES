@@ -1,0 +1,5 @@
+Objective:
+1. To learn the code for plotting Cartesian curves, polar curves and implicit functions
+2. To learn the code for plotting pie charts and bar charts
+
+Introduction: A two-dimensional graph (known as a 2D plot) is a graph that expresses data or a function on two-dimensional coordinates. Area graphs, Bar graphs, Pie graphs, and Scatter graphs are examples of 2D plots. A three-dimensional graph (known as a 3D plot) is a graph that expresses data or a function on three-dimensional coordinates. Mesh graphs, Surface graphs, Contour graphs, and Slice graphs are examples of 3D plots. A curve specified in Cartesian coordinates is known as a Cartesian curve and a curve specified in polar coordinates is known as a polar curve. Use plots to visualize data. For example, you can compare data sets, track data changes over time, or show data distribution. Create plots programmatically using graphics functions or interactively using the Plots tab at the top of the MATLAB® desktop.
