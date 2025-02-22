@@ -1,3 +1,5 @@
+%%Case 1: Plot of Cartesian curves
+
 %% Plot the graph for y = sin(x) from 0 to 2π
 x=linspace(0,2*pi,100);
 y=sin(x);
