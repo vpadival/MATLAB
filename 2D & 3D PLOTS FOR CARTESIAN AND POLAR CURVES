@@ -1,5 +1,20 @@
-Objective:
-1. To learn the code for plotting Cartesian curves, polar curves and implicit functions
-2. To learn the code for plotting pie charts and bar charts
+%% Plot the graph for y = sin(x) from 0 to 2π
+x=linspace(0,2*pi,100);
+y=sin(x);
+plot(x,y)
+xlabel('x")
+ylabel('(sin(x)')
+title('Plot of the Sine function')
 
-Introduction: A two-dimensional graph (known as a 2D plot) is a graph that expresses data or a function on two-dimensional coordinates. Area graphs, Bar graphs, Pie graphs, and Scatter graphs are examples of 2D plots. A three-dimensional graph (known as a 3D plot) is a graph that expresses data or a function on three-dimensional coordinates. Mesh graphs, Surface graphs, Contour graphs, and Slice graphs are examples of 3D plots. A curve specified in Cartesian coordinates is known as a Cartesian curve and a curve specified in polar coordinates is known as a polar curve. Use plots to visualize data. For example, you can compare data sets, track data changes over time, or show data distribution. Create plots programmatically using graphics functions or interactively using the Plots tab at the top of the MATLAB® desktop.
+%% Plot the graph for y = sin(x) and 1y = cos(x) from 0 to 2π (with different line styles with legend)
+x=linspace (0,2*pi,100);
+y=sin(x);
+plot(x,y, 'g--', 'LineWidth',4.0)
+hold on
+y1 = cos(x);
+plot(x,y1,'o')
+hold off
+xlabel('x')
+ylabel('sine and cosine values')
+title('Plot of the sine and cosine Functions')
+legend ({'y=sinx', 'yl=cosx'}, 'Location', 'southwest')
