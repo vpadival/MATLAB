@@ -1,0 +1,8 @@
+Euclid’s algorithm: This is a method for finding the greatest common divisor (GCD) of two integers in the form Au+Bv
+Code:
+clc;
+clear all;
+A=a;
+B=b;
+g=gcd(A, B);
+[g, u, v]=gcd(A, B)
